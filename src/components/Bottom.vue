@@ -49,7 +49,7 @@
 
 <style>
 .container {
-  margin: 120px 0 0 0;
+  margin: 100px 0 0 0;
   display: flex;
   flex-direction: column;
   max-width: 1440px;

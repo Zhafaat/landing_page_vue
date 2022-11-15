@@ -2,6 +2,7 @@
     <div class="services">
         <ServicesHeaderVue/>
         <ServicesAchievementVue/>
+        <ServicesProductVue/>
         
     </div>
 </template>
@@ -9,11 +10,13 @@
 <script>
 import ServicesHeaderVue from '@/components/services/ServicesHeader.vue';
 import ServicesAchievementVue from '@/components/services/ServicesAchievement.vue';
+import ServicesProductVue from '@/components/services/ServicesProduct.vue';
     export default {
         name: 'Services',
         components: {
             ServicesHeaderVue,
-            ServicesAchievementVue
+            ServicesAchievementVue,
+            ServicesProductVue
         }
     }
 </script>

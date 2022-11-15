@@ -22,7 +22,7 @@
 
 <style>
 .home-material {
-  margin-top: 120px;
+  margin: 120px 0 20px 0;
   width: 1200px;
   display: flex;
   justify-content: space-between;
