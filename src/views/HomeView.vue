@@ -1,5 +1,5 @@
 <template>
-  <div class="home margin">
+  <div class="home">
       <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->  
     <HomeHeaderVue/>
     <HomeAboutVue/>
