@@ -68,7 +68,7 @@
 }
 
 .home-material-right {
-  position: relative;
+  position:relative;
   width: 622.84px;
   height: 490px;
 }

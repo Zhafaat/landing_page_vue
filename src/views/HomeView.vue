@@ -6,7 +6,6 @@
     <HomeServiceVue/>
     <HomeProductVue/>
     <HomeMaterialVue/>
-    
   </div>
 </template>
 

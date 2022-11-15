@@ -1,5 +1,5 @@
 <template>
-    <nav class="margin">
+    <nav>
       <div class="nav-left">
         <p class="nav-left-title">Dananz</p>
       </div>
@@ -24,6 +24,9 @@
 </script>
 <style>
 nav {
+  margin-inline:auto;
+  width: 1200px;
+  max-width: 1200px;
   display: flex;
   /* background-color: aqua; */
   justify-content: space-between;
