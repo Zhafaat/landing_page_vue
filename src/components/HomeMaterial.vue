@@ -1,9 +1,9 @@
 <template>
     <div class="home-material">
       <div class="home-material-left">
-        <p class="font-subcontent">MATERIAL</p>
-        <p class="font-material-content">choice of materials for quality furniture.</p>
-        <p class="font-material-text">You can custom the material as desired. And our furniture uses the best materials and selected quality materials.</p>
+        <p class="home-material-title">MATERIAL</p>
+        <p class="home-material-content">choice of materials for quality furniture.</p>
+        <p class="home-material-text">You can custom the material as desired. And our furniture uses the best materials and selected quality materials.</p>
         <button class="btn-material">See Materials</button>
       </div>
       <div class="home-material-right">
@@ -22,18 +22,35 @@
 
 <style>
 .home-material {
-  margin: 120px 0 20px 0;
+  margin: 163px 0 20px 0;
   width: 1200px;
+  height: 490px;
   display: flex;
   justify-content: space-between;
-  /* flex-direction: column; */
+  /* background-color: aqua; */
 }
 
 .home-material-left {
-  margin: 47px 0 0 0;
+  margin: 0;
+  height: 396px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: aliceblue; */
+  align-self: center;
 }
 
-.font-material-content {
+.home-material-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  color: #333333;
+}
+
+.home-material-content {
   width: 348px;
   font-family: 'Poppins';
   font-style: normal;
@@ -41,10 +58,10 @@
   font-size: 36px;
   line-height: 61px;
   color: #333333;
-  margin: 20px 0 0 0;
+  margin: 0 0 0 0;
 }
 
-.font-material-text {
+.home-material-text {
   width: 497px;
   font-family: 'Poppins';
   font-style: normal;
@@ -69,8 +86,9 @@
 
 .home-material-right {
   position:relative;
-  width: 622.84px;
+  width: 623px;
   height: 490px;
+  /* background-color:aquamarine; */
 }
 
 .material-image1 {

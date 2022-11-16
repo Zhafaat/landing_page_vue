@@ -39,14 +39,14 @@ nav {
   font-size: 31.93px;
   font-weight: 700;
   margin: 0;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .nav-rigth {
   /* width: 49.58%; */
   display: flex;
   gap: 74px;
-  background-color:aqua;
+  /* background-color:aqua; */
 
 }
 
@@ -74,5 +74,12 @@ nav {
 
 .link {
   text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+  margin: 0;
 }
 </style>

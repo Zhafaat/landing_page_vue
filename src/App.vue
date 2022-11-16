@@ -26,9 +26,10 @@ body {
 
 .page {
   max-width: 1440px;
-  /* width: 100vw; */
+  min-width: 1200px;
+  width: 100vw;
   /* background-color: aqua; */
-  margin-inline: auto;
+  margin: 0 auto;
 }
 
 

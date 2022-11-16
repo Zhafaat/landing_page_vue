@@ -1,26 +1,22 @@
 <template>
     <div class="home-about">
         <div class="home-about-top">
-            <div>
-            <p class="font-subcontent">ABOUT</p>
-            </div>
-            <p class="font-about-content">“We're one of the best furniture agency. Prioritizing customers and making purchases easy are the hallmarks of our agency.”</p>
+          <p class="home-about-title">ABOUT</p>
+          <p class="home-about-content">“We're one of the best furniture agency. Prioritizing customers and making purchases easy are the hallmarks of our agency.”</p>
         </div>
         <div class="home-about-bottom">
-            <div class="home-about-bottom-absolute">
-            <img class="about-image" src="../assets/unsplash_NvqYkDPE0Rw.png" alt="about image">
-            <div class="about-account">
-                <img class ="account-image" src="../assets/Ellipse332.png" alt="account image">
-                <div>
-                <p class="font-account-name">Arga Danaan</p>
-                <p class="font-account-position">CEO of Dananz</p>
-                </div>
-            </div>
-            <div class="about-text">
-                <p class="font-about-text">Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.</p>
-                <button class="btn--home-about">Learn More</button>
-            </div>
-            </div>
+          <img class="home-about-image" src="../assets/home2.svg" alt="about image">
+          <div class="home-about-account">
+              <img class ="account-image" src="../assets/home3.svg" alt="account image">
+              <div>
+              <p class="font-account-name">Arga Danaan</p>
+              <p class="font-account-position">CEO of Dananz</p>
+              </div>
+          </div>
+          <div class="home-about-text">
+              <p class="font-about-text">Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.</p>
+              <button class="btn--home-about">Learn More</button>
+          </div>
         </div>
     </div>
 </template>
@@ -34,10 +30,21 @@
 <style>
     .home-about {
     margin-top: 160px;
+    height: 751px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    /* background-color: aqua; */
     }
-    .font-subcontent {
+    
+    .home-about-top {
+      height: 210px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .home-about-title {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -47,40 +54,32 @@
     color: #333333;
     }
 
-  .font-about-content {
+  .home-about-content {
     width: 1200px;
-    height: 122px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 61px;
-    /* or 61px */
     color: #333333;
-    margin: 20px 0 0 0;
+    margin: 0 0 0 0;
   }
 
-  /* .home-about-bottom {
-    position: absolute;
-  } */
-
-  .home-about-bottom-absolute {
+  .home-about-bottom {
     position: relative;
     display: flex;
     justify-content: space-between;
     width: 1200px;
-    margin: 60px 0 0 0;
+    margin: 0;
   }
 
-
-
-  .about-image {
+  .home-about-image {
     width: 883px;
     height: 525px;
   }
 
-  .about-account {
-    box-shadow:  0.1px 0.1px #888888;
+  .home-about-account {
+    /* box-shadow:  0.1px 0.1px #888888; */
     width: 276px;
     height: 90px;
     position: absolute;
@@ -103,7 +102,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 140%;
+    line-height: 25px;
     margin: 0;
   }
 
@@ -112,9 +111,17 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 160%;
+    line-height: 29px;
     color: #9C9C9C;
     margin: 0;
+  }
+
+  .home-about-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
   }
 
   .font-about-text {
@@ -125,7 +132,7 @@
     font-size: 18px;
     line-height: 29px;
     color: #9C9C9C;
-    margin: 197px 0 40px 0;
+    margin: 0;
   }
 
   .btn--home-about {
@@ -139,5 +146,7 @@
     font-size: 14px;
     line-height: 21px;
     color: #FFFFFF;
+    position: absolute;
+    bottom: 94px;
   }
 </style>
