@@ -11,7 +11,7 @@
           <router-link class="link" to="/team">Our Team</router-link>
         </div>
         <div class="contactUs">
-          <button class="btn--contact">Contact Us</button>
+          <button class="btn-contact"><router-link class="btn-text" to="/contact">Contact Us</router-link></button>
         </div>
       </div>
     </nav>
@@ -55,7 +55,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 16px;
 }
 
 .contactUs {
@@ -64,14 +63,23 @@ nav {
   font-size: 14px;
 }
 
-.btn--contact {
-  color: #fff;
+.btn-contact {
   background-color: #2C3878;
   width: 142px;
   height: 49px;
   border: 0;
 }
 
+.btn-text {
+  color: #fff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration: none;
+}
+ 
 .link {
   text-decoration: none;
   font-family: 'Poppins';

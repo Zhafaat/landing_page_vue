@@ -5,7 +5,7 @@
           <p class="font-footer-content">let's discuss making your interior like a dream place!</p>
           <div>
             <p class="font-footer-text">Contact us below to work together to build your amazing interior</p>
-            <button class="btn-footer">Contact Us</button>
+            <button class="btn-footer"><router-link class="btn-color btn-text" to="/contact">Contact Us</router-link></button>
           </div>
         </div>
       </div>
@@ -270,5 +270,9 @@ margin: 10px 0 0 0;
 .youtube {
   width: 20px;
   height: 14.02px;
+}
+
+.btn-color {
+  color:  #333333;
 }
 </style>
